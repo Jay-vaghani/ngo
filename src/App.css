@@ -1,0 +1,11 @@
+.section-gap{
+    margin: 5% 0;
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-link {
+    position: relative;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #fff !important;
+    text-decoration: none !important;
+}

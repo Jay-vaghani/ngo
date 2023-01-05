@@ -1,0 +1,41 @@
+.banner {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.4) 100%
+    ),
+    url("/public/images/banner-image.jpg") center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.banner h1 {
+  position: relative;
+  top: 50%;
+  transform: translate(0, -80%);
+  font-size: clamp(2.3rem, 5vw, 3.7rem);
+  word-spacing: 5px;
+  letter-spacing: 2px;
+}
+.banner .call-btn {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  word-spacing: 5px;
+  letter-spacing: 2px;
+  background: #fff;
+  padding: 10px 20px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+}
+
+.call-btn a{
+  color: #000;
+  text-decoration: none;
+}
